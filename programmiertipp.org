@@ -1,0 +1,20 @@
+* Tipps zum besseren Programmieren
+
+** Funktion
+   eine Fuktion fängt mir def an, dann kommt der Name der Funktion mit den zu übergebenden Paramtern
+   endet einem Doppelpunkt. In der nächsten Zeile kommt dann der Code der dann mit den Paramtern arbeitet
+   Bsp.:
+   def funktion(x,y):
+    res = x+y
+	print res
+	
+	Um die Fuktion wieder aufzurufen schreibt man einfach funktion(x,y) und setzt die unbekannten
+	Parameter ein. Der Code addiert die Paramater in diesem Fall und gibt die das Ergebnis res aus.
+
+** Funktionen kommentieren
+   Am Besten sollten die Kommentare immer über der jeweiligen Funktion stehen und den folgenden Inhalt
+   haben: 
+   
+   eingabe: typ, was es ist
+   funktion: was es macht
+   ausgabe: typ, was ausgegeben wird
